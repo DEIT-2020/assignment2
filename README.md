@@ -10,16 +10,13 @@
     
 - 你还需要修改自动生成的main_test.dart文件(如果没有此文件，可手动创建一份)，使用如下代码替换这个文件里面的内容。
  ```dart
-dart
-
-  import 'package:tutorial_2020/student.dart' as tutor;
 import 'package:test/test.dart';
 import 'package:tutorial_2020/student.dart';
 import 'dart:mirrors';
 
 void main() {
   InstanceMirror studentInstanceMirror =
-      reflect(Student('firstName', 'lastName'));
+      reflect(Student('zhang', 'san'));
   var cm = reflectClass(Student);
   var instance = reflect(Student);
   var type = studentInstanceMirror.type;
@@ -37,8 +34,9 @@ void main() {
     var lastNameMember = type.instanceMembers[#lastName];
     expect(lastNameMember != null, true);
   });
-  test(' student name is right', () {
-    expect('zhan san', 'zhan san');
+ test('has a function named studentFullName', () {
+    var studentFullName = type.instanceMembers[#studentFullName];
+    expect(studentFullName != null , true);
   });
   test('has a function named averageScore', () {
     var averageScore = type.instanceMembers[#averageScore];
@@ -57,7 +55,18 @@ void main() {
     }
     expect(averageScores == 83.0, true);
   });
+ test('student full name  is right', () {
+    var studentFullName = type.instanceMembers[#studentFullName];
+    var fullName;
+    if (studentFullName != null) {
+      var resultMirror = studentInstanceMirror.invoke(#studentFullName, []);
+      fullName = resultMirror.reflectee;
+    }
+    expect(fullName == 'zhang san', true);
+  });
+
 }
+
 ```
 - 替换之后，还需要查看你的pubspec.yaml文件的含有类似'name:xxx'的哪一行(通常是第一行)，使用name后面的内容替换下面代码中的**tutorial_2020** 。如图所示： 
 ![查看项目名](https://user-images.githubusercontent.com/1710178/80298700-a121b480-87c1-11ea-83c6-24142897abc8.jpg)
