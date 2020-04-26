@@ -68,7 +68,7 @@ void main() {
 }
 
 ```
-- 替换之后，还需要查看你的pubspec.yaml文件的含有类似'name:xxx'的哪一行(通常是第一行)，使用name后面的内容替换下面代码中的**tutorial_2020** 。如图所示： 
+- 替换之后，还需要查看你的pubspec.yaml文件的含有类似'name:xxx'的哪一行(通常是第一行)，使用name后面的内容替换main_test.dart代码中的**tutorial_2020** 。如图所示： 
 ![查看项目名](https://user-images.githubusercontent.com/1710178/80298700-a121b480-87c1-11ea-83c6-24142897abc8.jpg)
 
 
