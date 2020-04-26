@@ -7,7 +7,7 @@
     - 类中有firstName，lastName 属性
     - 类中有subjectScores 的Map类型属性，其初始值为{'subject1':80,'subject2':87，'subject3':82}
     - 类中有averageScore的function，返回上述科目的平均分
-      - 你计算平均分的时候，必须使用循环语句操作。
+    
 - 你还需要修改自动生成的main_test.dart文件(如果没有此文件，可手动创建一份)，使用如下代码替换这个文件里面的内容。
  ```dart
 dart
@@ -59,7 +59,8 @@ void main() {
   });
 }
 ```
-- 替换之后，还需要查看你的pubspec.yaml文件的含有类似'name:xxx'的哪一行(通常是第一行)，使用name后面的内容替换下面代码中的**tutorial_2020** 。如图所示：
+- 替换之后，还需要查看你的pubspec.yaml文件的含有类似'name:xxx'的哪一行(通常是第一行)，使用name后面的内容替换下面代码中的**tutorial_2020** 。如图所示： 
+![查看项目名](https://user-images.githubusercontent.com/1710178/80298700-a121b480-87c1-11ea-83c6-24142897abc8.jpg)
 
 
 ## 如何测试自己的代码
@@ -68,6 +69,8 @@ void main() {
 pub run test test/main_test.dart
 ```
 如图所示:
+![测试通过](https://user-images.githubusercontent.com/1710178/80298720-dfb76f00-87c1-11ea-99e1-6a556c8bb4e1.jpg)   
+
 当显示完全通过之后，你就可以同第一次作业一样提交了。
 ## 务必注意事项
 > **你的程序必须遵守上述所有的名称的命名规则，包括大小写，否则无法通过。** 
