@@ -1,0 +1,46 @@
+[33mcommit 16f0597008513e0ae2fe1a9d7df4be73f2a4087a[m[33m ([m[1;36mHEAD -> [m[1;32m10184500110[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: meflyup <meflyup@gmail.com>
+Date:   Sun Apr 26 13:41:18 2020 +0800
+
+    '修改文字内容'
+
+[33mcommit 5afdb1f4267f042a6d13fdd89f0d1141763b2417[m
+Merge: 934da30 16e3ce9
+Author: meflyup <meflyup@gmail.com>
+Date:   Sun Apr 26 13:37:53 2020 +0800
+
+    Merge branch 'master' of https://github.com/DEIT-2020/assignment2
+
+[33mcommit 934da300cc277f3c33153c0284e9331c221e24f5[m
+Author: meflyup <meflyup@gmail.com>
+Date:   Sun Apr 26 13:37:46 2020 +0800
+
+    '添加fullname检查'
+
+[33mcommit 16e3ce9807615bbec326fb8f8e68f6a2f9cf437a[m
+Author: fengxiang <meflyup@users.noreply.github.com>
+Date:   Sun Apr 26 13:36:36 2020 +0800
+
+    添加学生全名函数的测试
+    
+    添加学生全名函数的测试
+
+[33mcommit 356f08557eb57f6889aa89bc79f3c353ea12d865[m
+Author: fengxiang <meflyup@users.noreply.github.com>
+Date:   Sun Apr 26 13:31:31 2020 +0800
+
+    添加图片
+    
+    添加指导图片
+
+[33mcommit 60da107d12f5135b4de832cc66cec139e32a45a8[m
+Author: meflyup <meflyup@gmail.com>
+Date:   Sun Apr 26 13:24:56 2020 +0800
+
+    '第二次作业要求'
+
+[33mcommit 8e4cecf78e0d187d4d6686428ca314bc09821742[m
+Author: fengxiang <meflyup@users.noreply.github.com>
+Date:   Sun Apr 26 11:49:39 2020 +0800
+
+    Initial commit
