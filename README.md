@@ -7,6 +7,7 @@
     - 类中有firstName，lastName 属性
     - 类中有subjectScores 的Map类型属性，其初始值为{'subject1':80,'subject2':87，'subject3':82}
     - 类中有averageScore的function，返回上述科目的平均分
+    - 类中有studentFullName的function，返回同学的姓名
     
 - 你还需要修改自动生成的main_test.dart文件(如果没有此文件，可手动创建一份)，使用如下代码替换这个文件里面的内容。
  ```dart
