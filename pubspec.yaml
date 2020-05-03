@@ -2,7 +2,7 @@ name: assignment2
 description: A sample command-line application.
 # version: 1.0.0
 # homepage: https://www.example.com
-# author: WangYiShan3 <1959069166@qq.com>
+# author: Your Name <email@example.com>
 
 environment:
   sdk: '>=2.4.0 <3.0.0'
