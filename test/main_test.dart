@@ -1,5 +1,8 @@
-import 'package:assignment2/assignment2.dart' as assignment2;
+import 'package:assignment2/assignment2.dart';
+import 'package:test/test.dart';
 
-main(List<String> arguments) {
-  print('Hello world: ${assignment2.calculate()}!');
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
 }
