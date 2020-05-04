@@ -1,8 +1,8 @@
-name: assignment2
+name: assignment3
 description: A sample command-line application.
 # version: 1.0.0
 # homepage: https://www.example.com
-# author: WangYiShan3 <1959069166@qq.com>
+# author: LiFengShuo10184500518 <792498716@qq.com>
 
 environment:
   sdk: '>=2.4.0 <3.0.0'

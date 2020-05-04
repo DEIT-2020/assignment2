@@ -1,5 +1,5 @@
-import 'package:assignment2/assignment2.dart' as assignment2;
+import 'package:assignment3/assignment3.dart' as assignment3;
 
 main(List<String> arguments) {
-  print('Hello world: ${assignment2.calculate()}!');
+  print('Hello world: ${assignment3.calculate()}!');
 }
